@@ -13,10 +13,16 @@
             padding: 20px;
             background: #111;
             color: #eee;
+            line-height: 1.6;
         }
 
-        h1, h2 {
+        h1, h2, h3 {
             color: #4db8ff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px 0;
         }
 
         .project {
@@ -24,83 +30,163 @@
             padding: 20px;
             margin-bottom: 20px;
             border-radius: 10px;
+            transition: transform 0.2s ease;
+        }
+
+        .project:hover {
+            transform: translateY(-3px);
         }
 
         a {
             color: #4db8ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            opacity: 0.8;
         }
 
         img {
             width: 100%;
             border-radius: 8px;
+            margin-top: 10px;
         }
 
-        .hero {
-            text-align: center;
-            padding: 40px 0;
+        ul {
+            margin-top: 10px;
+        }
+
+        .cta {
+            background: #1d1d1d;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        iframe {
+            border-radius: 8px;
+            margin-top: 10px;
         }
     </style>
 </head>
 
 <body>
 
+<!-- HERO -->
 <div class="hero">
     <h1>João Neto</h1>
-    <p>Unreal Engine 5 Developer</p>
+    <p><strong>Unreal Engine 5 Developer</strong></p>
 
     <p>
-        Gameplay Programming • C++ • Blueprints • AI • Multiplayer
+        Gameplay Programming • C++ • Blueprints • AI Systems • Multiplayer Networking
     </p>
 
-    <a href="https://www.youtube.com/@TheBadBugz">
-        YouTube Channel
-    </a>
-</div>
-
-<h2>Projects</h2>
-
-<div class="project">
-    <h3>Multiplayer Shooter Prototype</h3>
-
-    <img src="images/shooter.jpg">
-
     <p>
-        A multiplayer FPS prototype built in UE5 using
-        replicated weapons, inventory systems, and matchmaking.
-    </p>
-
-    <ul>
-        <li>C++ Gameplay Systems</li>
-        <li>Replication</li>
-        <li>Session Management</li>
-        <li>UI Development</li>
-    </ul>
-
-    <a href="https://github.com/yourusername/project">
-        Source Code
-    </a>
-</div>
-
-<div class="project">
-    <h3>Advanced AI System</h3>
-
-    <p>
-        AI enemies using Behavior Trees, EQS,
-        perception, and coordinated attacks.
+        <a href="https://www.youtube.com/@TheBadBugz" target="_blank">
+            YouTube Channel
+        </a>
     </p>
 </div>
 
+<!-- ABOUT -->
 <h2>About Me</h2>
 
 <p>
-    Solo Unreal Engine developer with experience building
-    gameplay systems, prototypes, and educational content
-    on YouTube.
+I am a solo Unreal Engine developer focused on gameplay programming and system design using UE5.
+I build gameplay prototypes, experiment with multiplayer systems, and share technical breakdowns through YouTube content.
 </p>
 
-<h2>Contact</h2>
+<!-- SKILLS -->
+<h2>Technical Skills</h2>
 
-<p>Email: barrosoneto@live.com.pt</p>
+<div class="project">
+    <ul>
+        <li>Unreal Engine 5 (C++ / Blueprints)</li>
+        <li>Gameplay Systems Architecture</li>
+        <li>Multiplayer Networking (Replication, RPCs)</li>
+        <li>AI Systems (Behavior Trees, Perception, EQS)</li>
+        <li>UI Development (UMG)</li>
+        <li>Git / Version Control</li>
+    </ul>
+</div>
+
+<!-- YOUTUBE -->
+<h2>Content / YouTube</h2>
+
+<div class="project">
+    <p>
+        I create Unreal Engine 5 tutorials and breakdowns of gameplay systems,
+        focusing on real development workflows and engine architecture.
+    </p>
+
+    <p>
+        Channel: 
+        <a href="https://www.youtube.com/@TheBadBugz" target="_blank">
+            @TheBadBugz
+        </a>
+    </p>
+
+    <iframe width="100%" height="400"
+        src="https://www.youtube.com/embed?listType=user_uploads&list=TheBadBugz"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<!-- PROJECT 1 -->
+<h2>Projects</h2>
+
+<div class="project">
+    <h3>Multiplayer Shooter Prototype (UE5)</h3>
+
+    <img src="images/shooter.jpg" alt="Multiplayer Shooter">
+
+    <p>
+        Multiplayer FPS prototype built in Unreal Engine 5 using C++ and Blueprints.
+        Focused on server-authoritative gameplay systems and replication architecture.
+    </p>
+
+    <ul>
+        <li>Server-authoritative weapon firing system</li>
+        <li>Replicated inventory and pickup system</li>
+        <li>Basic matchmaking/session flow</li>
+        <li>UI integration for multiplayer state</li>
+    </ul>
+
+    <a href="https://github.com/yourusername/project" target="_blank">
+        View Source Code
+    </a>
+</div>
+
+<!-- PROJECT 2 -->
+<div class="project">
+    <h3>Advanced AI System (UE5)</h3>
+
+    <p>
+        AI system built using Behavior Trees, EQS, and perception components.
+        Designed for tactical NPC behavior and coordinated enemy response.
+    </p>
+
+    <ul>
+        <li>Behavior Tree decision architecture</li>
+        <li>Enemy perception system (sight & hearing)</li>
+        <li>State-based combat behavior</li>
+        <li>Group coordination logic</li>
+    </ul>
+</div>
+
+<!-- CTA -->
+<div class="cta">
+    <h2>Contact / Hiring</h2>
+
+    <p>
+        I am actively looking for junior Unreal Engine gameplay or tools programming roles
+        (remote or Europe-based).
+    </p>
+
+    <p>
+        Email: <strong>barrosoneto@live.com.pt</strong>
+    </p>
+</div>
 
 </body>
 </html>
