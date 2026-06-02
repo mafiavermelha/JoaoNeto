@@ -20,14 +20,19 @@ I also share Unreal Engine development content on YouTube.
 
 ## 🎮 Featured Projects
 
-### Multiplayer Shooter Prototype (UE5)
-A multiplayer FPS prototype built in Unreal Engine 5 using server-authoritative architecture.
+### Survival Horror game (UE5)
+A first-person horror gameplay framework built in Unreal Engine 5, focused on modular systems and core gameplay architecture.
 
-**Key features:**
-- Replicated weapon system
-- Multiplayer inventory system
-- Session-based gameplay flow
-- Basic matchmaking structure
+**Key Features:**
+- Full gameplay framework setup (Game Mode, Player Controller, HUD, Player State)
+- First-person character controller (movement, sprinting, crouching, jumping, camera system)
+- Interaction system (doors, objects, physics-based interactions)
+- Inventory system (grid-based UI, item usage, dropping, examination)
+- Survival mechanics (flashlight with battery, health system, damage feedback)
+- Immersive horror systems (jumpscares, hiding, locks, objectives, notes)
+- Atmospheric systems (lighting setup, fog, post-processing, audio ambience)
+- AI enemy system (patrol, chase, investigate, attack, jumpscare states)
+- Advanced mechanics (security cameras, leaning system, cutscenes)
 
 ---
 
