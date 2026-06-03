@@ -1,6 +1,175 @@
-<h2>Projects</h2>
+<!DOCTYPE html>
 
-<!-- PROJECT 1 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Neto - Unreal Engine Developer</title>
+
+```
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        max-width: 1100px;
+        margin: auto;
+        padding: 20px;
+        background: #111;
+        color: #eee;
+        line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+        color: #4db8ff;
+    }
+
+    h4 {
+        color: white;
+        margin-top: 20px;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .project {
+        background: #1d1d1d;
+        padding: 25px;
+        margin-bottom: 30px;
+        border-radius: 12px;
+        transition: transform 0.2s ease;
+    }
+
+    .project:hover {
+        transform: translateY(-4px);
+    }
+
+    .project p {
+        margin-bottom: 15px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 8px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    a {
+        color: #4db8ff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        opacity: 0.8;
+    }
+
+    .cta {
+        background: #1d1d1d;
+        padding: 25px;
+        border-radius: 12px;
+        margin-top: 30px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 400px;
+        border-radius: 8px;
+        border: none;
+        margin-top: 15px;
+    }
+
+    ul {
+        margin-top: 10px;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 40px;
+        color: #888;
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<!-- HERO -->
+<div class="hero">
+    <h1>João Neto</h1>
+
+    <p>
+        <strong>Unreal Engine 5 Developer</strong>
+    </p>
+
+    <p>
+        Gameplay Programming • C++ • Blueprints • AI Systems • UI • Multiplayer
+    </p>
+
+    <p>
+        <a href="https://www.youtube.com/@TheBadBugz" target="_blank">
+            YouTube Channel (@TheBadBugz)
+        </a>
+    </p>
+</div>
+
+<!-- ABOUT -->
+<h2>About Me</h2>
+
+<div class="project">
+    <p>
+        I am a solo Unreal Engine developer focused on gameplay programming,
+        systems design, and prototyping using Unreal Engine 5.
+    </p>
+
+    <p>
+        I enjoy building complete gameplay experiences, creating educational
+        content, and exploring everything from horror mechanics and AI systems
+        to arcade vehicle gameplay.
+    </p>
+</div>
+
+<!-- SKILLS -->
+<h2>Technical Skills</h2>
+
+<div class="project">
+    <ul>
+        <li>Unreal Engine 5 (Blueprints & C++)</li>
+        <li>Gameplay Systems Architecture</li>
+        <li>AI Systems (Behavior Trees, Perception, EQS)</li>
+        <li>Multiplayer Networking (Replication & RPCs)</li>
+        <li>UI Development (UMG)</li>
+        <li>Vehicle Systems</li>
+        <li>Version Control (Git)</li>
+    </ul>
+</div>
+
+<!-- YOUTUBE -->
+<h2>Content Creation</h2>
+
+<div class="project">
+
+    <p>
+        Through my YouTube channel, I create Unreal Engine tutorials and
+        gameplay system breakdowns, sharing development workflows and
+        helping others learn UE5.
+    </p>
+
+    <p>
+        Channel:
+        <a href="https://www.youtube.com/@TheBadBugz" target="_blank">
+            @TheBadBugz
+        </a>
+    </p>
+
+</div>
+
+<!-- PROJECTS -->
+<h2>Featured Projects</h2>
+
+<!-- HORROR -->
 <div class="project">
 
     <h3>Horror Game Framework (UE5)</h3>
@@ -12,38 +181,33 @@
 
     <h4>Screenshots</h4>
 
-    <img src="images/horror1.jpg" alt="Horror Game Screenshot 1">
-    <img src="images/horror2.jpg" alt="Horror Game Screenshot 2">
-    <img src="images/horror3.jpg" alt="Horror Game Screenshot 3">
+    <img src="images/horror1.jpg" alt="Horror Screenshot 1">
+    <img src="images/horror2.jpg" alt="Horror Screenshot 2">
+    <img src="images/horror3.jpg" alt="Horror Screenshot 3">
 
     <h4>Key Features</h4>
 
     <ul>
-        <li>Full gameplay framework setup (Game Mode, Player Controller, HUD, Player State)</li>
-        <li>First-person character controller (movement, sprinting, crouching, jumping)</li>
-        <li>Interaction system (doors, objects, physics-based interactions)</li>
-        <li>Inventory system with item examination and usage</li>
-        <li>Survival mechanics (flashlight, battery, health system)</li>
-        <li>Atmospheric horror systems (jumpscares, objectives, notes, hiding)</li>
-        <li>AI enemy system (patrol, chase, investigate, attack states)</li>
-        <li>Advanced mechanics (security cameras, cutscenes, leaning system)</li>
+        <li>Full gameplay framework setup (Game Mode, HUD, Player Controller, Player State)</li>
+        <li>First-person movement system with sprinting, crouching and jumping</li>
+        <li>Inventory system with item usage and examination</li>
+        <li>Interactive world systems including doors, locks and notes</li>
+        <li>Health and flashlight systems</li>
+        <li>Atmospheric horror mechanics and objectives</li>
+        <li>Enemy AI featuring patrol, chase, investigate and attack states</li>
+        <li>Security cameras, cutscenes and advanced immersion features</li>
     </ul>
-
-    <p>
-        Built using Unreal Engine 5 Blueprints with a focus on reusable gameplay systems.
-    </p>
 
 </div>
 
-<!-- PROJECT 2 -->
+<!-- MICROCARS -->
 <div class="project">
 
     <h3>MicroCars (UE5)</h3>
 
     <p>
-        An arcade racing prototype featuring miniature vehicles navigating
-        stylized themed levels. The project focuses on vehicle gameplay,
-        UI integration, and overall player experience.
+        An arcade racing prototype featuring miniature vehicles racing through
+        themed environments with responsive controls and fast-paced gameplay.
     </p>
 
     <h4>Screenshots</h4>
@@ -55,16 +219,42 @@
     <h4>Key Features</h4>
 
     <ul>
-        <li>Vehicle movement system with acceleration, braking, and drifting</li>
-        <li>Multiple themed levels with unique environments</li>
-        <li>Real-time driving HUD displaying speed and gear information</li>
+        <li>Arcade vehicle movement with acceleration, braking and drifting</li>
+        <li>Multiple themed levels with unique visual styles</li>
+        <li>Real-time HUD displaying speed and gear information</li>
         <li>Main menu and game state management</li>
-        <li>Arcade-focused vehicle handling and gameplay tuning</li>
+        <li>Vehicle gameplay tuning focused on accessibility and fun</li>
     </ul>
 
+</div>
+
+<!-- CONTACT -->
+<div class="cta">
+
+    <h2>Contact</h2>
+
     <p>
-        Built in Unreal Engine 5 with a focus on responsive controls,
-        level variety, and accessible arcade gameplay.
+        I am currently looking for junior Unreal Engine gameplay programming,
+        tools programming, or general game development opportunities.
+    </p>
+
+    <p>
+        <strong>Email:</strong> barrosoneto@live.com.pt
+    </p>
+
+    <p>
+        <strong>YouTube:</strong>
+        <a href="https://www.youtube.com/@TheBadBugz" target="_blank">
+            @TheBadBugz
+        </a>
     </p>
 
 </div>
+
+<div class="footer">
+    © João Neto • Unreal Engine Developer
+</div>
+```
+
+</body>
+</html>
